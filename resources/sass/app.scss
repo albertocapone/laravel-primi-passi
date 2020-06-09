@@ -1,0 +1,52 @@
+//commons
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    color: rgb(83, 74, 74);
+}
+
+a {
+    text-decoration-line: none;
+    color: inherit;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(10, 9, 9);
+    color: rgb(83, 74, 74);
+    display: flex;
+    align-items: center;
+
+    .location {
+        margin-left: 60%;
+    }
+}
+
+.logo {
+    letter-spacing: 2px;
+    margin-left: 180px;
+}
+
+nav {
+    height: 75vh;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(83, 74, 74);
+    color: rgb(10, 9, 9);
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    align-items: center;
+}
+
+
